@@ -41,3 +41,4 @@ artifacts
 # IDE
 .vscode/
 .idea/
+.env
