@@ -1,22 +1,23 @@
+## 📖 Documentation
 
-## Testing
+- [Architecture Overview](docs/architecture/OVERVIEW.md)
+- [Detailed Architecture Diagram](docs/architecture/ARCHITECTURE.md)
+- [API Documentation](docs/api/README.md)
+- [Examples](examples/README.md)
+  - [Paper Submission Example](examples/paper-submission/submit-paper.js)
 
-To run the tests for this project, use the following commands:
+## 🧪 Testing
 
-```bash
-# Frontend tests
-cd frontend
-npm test
+- [Frontend Tests](tests/frontend/README.md)
+- [Backend Tests](tests/backend/README.md)
+- [Smart Contract Tests](tests/smart-contracts/README.md)
 
-# Backend tests
-cd backend
-npm test
+## 🛠 Development
 
-# Smart contract tests
-cd contracts
-npx hardhat test
-```
+- Frontend: React.js, Next.js
+- Backend: Node.js, Express
+- Blockchain: Ethereum, Solidity
+- AI: TensorFlow.js
+- Database: MongoDB
 
-## Database
-
-This project uses a mock database for development purposes. The database schema can be found in `src/database/fakeDb.json`.
+For detailed setup instructions, see our [Installation Guide](docs/INSTALLATION.md).

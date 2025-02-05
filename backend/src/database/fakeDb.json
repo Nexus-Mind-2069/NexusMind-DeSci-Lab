@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "role": "researcher"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "role": "reviewer"
+    }
+  ],
+  "papers": [
+    {
+      "id": 1,
+      "title": "Advances in Quantum Computing",
+      "author": "John Doe",
+      "abstract": "This paper explores recent developments in quantum computing...",
+      "status": "under_review"
+    },
+    {
+      "id": 2,
+      "title": "Blockchain in Scientific Research",
+      "author": "Jane Smith",
+      "abstract": "An analysis of blockchain technology applications in scientific research...",
+      "status": "published"
+    }
+  ]
+}
