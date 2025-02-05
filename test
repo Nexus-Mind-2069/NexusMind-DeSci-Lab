@@ -1,0 +1,14 @@
+# Frontend Tests
+
+This directory contains all frontend tests for the NexusMind DeSci Lab platform.
+
+## Running Tests
+
+To run all frontend tests:
+
+```bash
+cd frontend
+npm test
+```
+
+For more information on our testing strategy and best practices, refer to our Testing Guidelines.
