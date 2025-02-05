@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cyberpunk theme */
+body {
+  @apply bg-black text-green-400 font-mono;
+}
+
+h1, h2, h3 {
+  @apply text-neon-blue font-bold;
+}
+
+/* Neon button effect */
+.btn {
+  @apply px-4 py-2 rounded-lg border border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black transition duration-300;
+}
+
+/* Custom colors */
+@layer utilities {
+  .text-neon-blue { color: #00eaff; }
+  .border-neon-blue { border-color: #00eaff; }
+  .hover\:bg-neon-blue:hover { background-color: #00eaff; }
+}
