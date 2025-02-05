@@ -41,3 +41,5 @@ artifacts
 # IDE
 .vscode/
 .idea/
+UI/node_modules/
+UI/UI/
