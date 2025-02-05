@@ -1,23 +1,47 @@
 # Contributing to NexusMind DeSci Lab
 
-We're excited to have you contribute to NexusMind DeSci Lab! Here are some steps to get you started:
+## Table of Contents
+
+- [Code of Conduct](#code-of-conduct)
+- [Development Workflow](#development-workflow)
+- [Branching Strategy](#branching-strategy)
+- [Commit Guidelines](#commit-guidelines)
+- [Pull Request Process](#pull-request-process)
+- [Development Setup](#development-setup)
+- [Testing Guidelines](#testing-guidelines)
+- [Documentation](#documentation)
+- [Security](#security)
+
+## Code of Conduct
+
+We are committed to fostering an open and welcoming environment. By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Development Workflow
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/your-username/NexusMind-DeSci-Lab.git`
-3. Create a new branch for your feature: `git checkout -b feature/amazing-feature`
-4. Make your changes and commit them: `git commit -m 'Add some amazing feature'`
-5. Push to your fork: `git push origin feature/amazing-feature`
-6. Create a Pull Request to the main repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to your fork
+5. Open a Pull Request
 
-## Code Style
+### Prerequisites
 
-- For JavaScript/TypeScript, use Prettier
-- For Python, use Black
-- For Rust, use rustfmt
+- Node.js (v16.0.0 or higher)
+- Python (v3.8 or higher)
+- Phantom Wallet
+- Git
 
-## Testing
+### Setup Development Environment
 
-Ensure all tests pass before submitting a Pull Request:
+```bash
+# Clone your fork
+git clone https://github.com/<your-username>/NexusMind-DeSci-Lab.git
 
+# Add upstream remote
+git remote add upstream https://github.com/Nexus-Mind-2069/NexusMind-DeSci-Lab.git
 
-Thank you for your contribution!
+# Install dependencies
+npm install
+
+# Create .env file
+cp .env.example .env
